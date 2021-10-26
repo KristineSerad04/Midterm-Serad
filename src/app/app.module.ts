@@ -13,12 +13,14 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatDividerModule } from '@angular/material/divider';
 import { GalleryComponent } from './redirect/gallery/gallery.component';
+import { ContactComponent } from './redirect/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
-    GalleryComponent
+    GalleryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
